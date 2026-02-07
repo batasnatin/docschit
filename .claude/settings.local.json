@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Bash(npm install)",
+      "Bash(npm install @google/genai openai @vercel/node)",
+      "Bash(npx vite build)",
+      "Bash(timeout 8 npx vite --host)",
+      "Bash(tree:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
